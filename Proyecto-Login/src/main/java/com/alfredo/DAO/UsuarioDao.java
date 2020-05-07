@@ -25,6 +25,12 @@ public class UsuarioDao {
 			
 			em.getTransaction().commit();
 			
+			for (TbUsuariosp datosid:User) {
+
+				usu.setIdUsuarios(datosid.getIdUsuarios());
+				
+			}
+			
 		} catch (Exception e) {
 			
 			System.out.println(e+"Error Dao");
