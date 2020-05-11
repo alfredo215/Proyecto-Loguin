@@ -10,8 +10,18 @@
   	<description></description>
   	<servlet-class>com.alfredo.control.ServeletUser</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>ServeleteHistorialUsuario</servlet-name>
+  	<display-name>ServeleteHistorialUsuario</display-name>
+  	<description></description>
+  	<servlet-class>com.alfredo.control.ServeleteHistorialUsuario</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>ServeletUser</servlet-name>
   	<url-pattern>/ServeletUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServeleteHistorialUsuario</servlet-name>
+  	<url-pattern>/ServeleteHistorialUsuario</url-pattern>
   </servlet-mapping>
 </web-app>

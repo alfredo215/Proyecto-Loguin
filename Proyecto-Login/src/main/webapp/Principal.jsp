@@ -18,6 +18,7 @@ if(Usuariovariable==null){
 <h1 align="center">Bienvenido</h1>
 <form action="ServeletUser" method="post">
 <input type="submit" value="Cerrar" name="btncerrar">
+<a href="historialUsuarios.jsp">Ver el historial de usuarios</a>
 </form>
 
 </body>
